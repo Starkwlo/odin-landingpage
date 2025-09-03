@@ -6,17 +6,54 @@ body {
 }
 
 .WebHeader{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer,
+.WebHeader{
     background-color: #1F2937;
-    display: flexbox;
 }
 
 .Logo{
     color: #F9FAF8;
     font-size: 24px;
+    margin-left: 0px;
 }
-
 
 .MainTitle{
     background-color: #1F2937;
 }
 
+.infohead{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+footer,
+.HeaderLinks,
+.info2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+}
+
+.RandomHead{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.Quote{
+    background-color: #e5e7eb;
+}
+
+.quotetext{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
